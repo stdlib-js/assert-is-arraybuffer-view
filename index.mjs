@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import s from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-arraybuffer-support@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-function@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-constant-function@esm/index.mjs";import i from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array@esm/index.mjs";import n from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-dataview@esm/index.mjs";var d=e(!1),m=i,a=n;var o=r;var j=t,p=r,f=d,l=function(s){return m(s)||a(s)},h=function(s){return o.isView(s)},c=s()?j(p.isView)?h:l:f;export{c as default};
-//# sourceMappingURL=index.mjs.map
