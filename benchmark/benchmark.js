@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var Int8Array = require( '@stdlib/array-int8' );
 var Int16Array = require( '@stdlib/array-int16' );
 var Uint16Array = require( '@stdlib/array-uint16' );
