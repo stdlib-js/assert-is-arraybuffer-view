@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isArrayBufferView from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@esm/index.mjs';
+import isArrayBufferView from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@v0.2.0-esm/index.mjs';
 ```
 
 #### isArrayBufferView( value )
@@ -83,7 +83,7 @@ import Int16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int16@esm/in
 import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@esm/index.mjs';
 import Uint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@esm/index.mjs';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
-import isArrayBufferView from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@esm/index.mjs';
+import isArrayBufferView from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@v0.2.0-esm/index.mjs';
 
 var bool = isArrayBufferView( new Int8Array( 10 ) );
 // returns true
