@@ -35,14 +35,32 @@ limitations under the License.
 
 > Test if a value is an [ArrayBuffer][mdn-arraybuffer] view.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-arraybuffer-view
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import isArrayBufferView from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@deno/mod.js';
+var isArrayBufferView = require( '@stdlib/assert-is-arraybuffer-view' );
 ```
 
 #### isArrayBufferView( value )
@@ -50,8 +68,8 @@ import isArrayBufferView from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-a
 Tests if a value is an [`ArrayBuffer`][mdn-arraybuffer] view such as a [`DataView`][mdn-dataview] or [`TypedArray`][mdn-typed-array].
 
 ```javascript
-import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@deno/mod.js';
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@deno/mod.js';
+var Int8Array = require( '@stdlib/array-int8' );
+var ArrayBuffer = require( '@stdlib/array-buffer' );
 
 var bool = isArrayBufferView( new Int8Array( 10 ) );
 // returns true
@@ -71,14 +89,14 @@ bool = isArrayBufferView( new ArrayBuffer( 10 ) );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@deno/mod.js';
-import Int16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int16@deno/mod.js';
-import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@deno/mod.js';
-import Uint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@deno/mod.js';
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@deno/mod.js';
-import isArrayBufferView from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@deno/mod.js';
+var Float32Array = require( '@stdlib/array-float32' );
+var Float64Array = require( '@stdlib/array-float64' );
+var Int8Array = require( '@stdlib/array-int8' );
+var Int16Array = require( '@stdlib/array-int16' );
+var Int32Array = require( '@stdlib/array-int32' );
+var Uint16Array = require( '@stdlib/array-uint16' );
+var ArrayBuffer = require( '@stdlib/array-buffer' );
+var isArrayBufferView = require( '@stdlib/assert-is-arraybuffer-view' );
 
 var bool = isArrayBufferView( new Int8Array( 10 ) );
 // returns true
@@ -139,7 +157,7 @@ bool = isArrayBufferView( null );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -169,8 +187,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/assert-is-arraybuffer-view.svg
 [npm-url]: https://npmjs.org/package/@stdlib/assert-is-arraybuffer-view
 
-[test-image]: https://github.com/stdlib-js/assert-is-arraybuffer-view/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/assert-is-arraybuffer-view/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/assert-is-arraybuffer-view/actions/workflows/test.yml/badge.svg?branch=v0.2.0
+[test-url]: https://github.com/stdlib-js/assert-is-arraybuffer-view/actions/workflows/test.yml?query=branch:v0.2.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-is-arraybuffer-view/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/assert-is-arraybuffer-view?branch=main
@@ -210,9 +228,9 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-dataview]: https://github.com/stdlib-js/assert-is-dataview/tree/deno
+[@stdlib/assert/is-dataview]: https://github.com/stdlib-js/assert-is-dataview
 
-[@stdlib/assert/is-typed-array]: https://github.com/stdlib-js/assert-is-typed-array/tree/deno
+[@stdlib/assert/is-typed-array]: https://github.com/stdlib-js/assert-is-typed-array
 
 <!-- </related-links> -->
 
