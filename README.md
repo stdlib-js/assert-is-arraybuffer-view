@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-isArrayBufferView = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@umd/browser.js' )
+isArrayBufferView = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@v0.2.2-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var isArrayBufferView = require( 'path/to/vendor/umd/assert-is-arraybuffer-view/
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@v0.2.2-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -105,7 +105,7 @@ bool = isArrayBufferView( new ArrayBuffer( 10 ) );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@v0.2.2-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
