@@ -42,7 +42,8 @@
     "@stdlib/assert-is-dataview": "^0.2.2",
     "@stdlib/assert-is-function": "^0.2.2",
     "@stdlib/assert-is-typed-array": "^0.2.1",
-    "@stdlib/utils-constant-function": "^0.2.2"
+    "@stdlib/utils-constant-function": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-float32": "^0.2.2",
