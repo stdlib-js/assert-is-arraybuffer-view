@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isArrayBufferView from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-arraybuffer-view/tags). For example,
+
+```javascript
 import isArrayBufferView from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@v0.2.2-deno/mod.js';
 ```
 
@@ -78,7 +83,7 @@ import Int16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int16@deno/m
 import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@deno/mod.js';
 import Uint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@deno/mod.js';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@deno/mod.js';
-import isArrayBufferView from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@v0.2.2-deno/mod.js';
+import isArrayBufferView from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@deno/mod.js';
 
 var bool = isArrayBufferView( new Int8Array( 10 ) );
 // returns true
