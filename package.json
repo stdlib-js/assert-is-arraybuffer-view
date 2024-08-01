@@ -37,11 +37,11 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-buffer": "^0.2.1",
+    "@stdlib/array-buffer": "^0.2.2",
     "@stdlib/assert-has-arraybuffer-support": "^0.2.2",
     "@stdlib/assert-is-dataview": "^0.2.2",
     "@stdlib/assert-is-function": "^0.2.2",
-    "@stdlib/assert-is-typed-array": "^0.2.1",
+    "@stdlib/assert-is-typed-array": "^0.2.2",
     "@stdlib/utils-constant-function": "^0.2.2"
   },
   "devDependencies": {
