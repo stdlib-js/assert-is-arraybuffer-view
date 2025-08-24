@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-25)
+## Unreleased (2025-08-24)
 
 <section class="bug-fixes">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`0002d25`](https://github.com/stdlib-js/stdlib/commit/0002d2537ef86840e1bfb479a37df8b236ae53cc) - **docs:** clean-up example code _(by Philipp Burckhardt)_
 -   [`7c9afed`](https://github.com/stdlib-js/stdlib/commit/7c9afed6a288c9e7d3048dfa0ac8f085759d73f4) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`21cdf0c`](https://github.com/stdlib-js/stdlib/commit/21cdf0c4d3de902744dfecd3387bc64317eddfd4) - **fix:** javascript lint errors [(#7143)](https://github.com/stdlib-js/stdlib/pull/7143) _(by Tushar Bhardwaj, Athan Reines)_
 
