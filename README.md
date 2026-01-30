@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isArrayBufferView from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-arraybuffer-view/tags). For example,
+
+```javascript
 import isArrayBufferView from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@v0.2.3-esm/index.mjs';
 ```
 
@@ -83,7 +88,7 @@ import Int16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int16@esm/in
 import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@esm/index.mjs';
 import Uint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@esm/index.mjs';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
-import isArrayBufferView from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@v0.2.3-esm/index.mjs';
+import isArrayBufferView from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arraybuffer-view@esm/index.mjs';
 
 var bool = isArrayBufferView( new Int8Array( 10 ) );
 // returns true
